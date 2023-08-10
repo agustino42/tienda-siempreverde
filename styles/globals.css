@@ -926,3 +926,17 @@ margin-top: 160px;
     background-color: #f02d34;
   }
 }
+
+@media (max-width:300px) {
+  main{
+    background-color: #034920;
+    align-items: center;
+  }
+}
+
+@media (min-width:300px) {
+  main{
+    align-items: center;
+    background-color: #f02d34;
+  }
+}
