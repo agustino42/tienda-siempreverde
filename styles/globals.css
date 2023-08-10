@@ -797,6 +797,14 @@ margin-top: 160px;
   background-color: #cf3328;
   padding: 40px 0;
   display: flex;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+  );
+  gap:16px;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
@@ -804,6 +812,14 @@ margin-top: 160px;
 
 .bannerContent1 {
   display: flex;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+  );
+  gap:16px;
   align-items: center;
   width: 80%;
   margin: 0 auto;
@@ -856,6 +872,13 @@ margin-top: 160px;
 
 .slider1 {
   display: flex;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+  );
   align-items: center;
   justify-content: center;
   width: 100%;
