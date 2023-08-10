@@ -914,15 +914,15 @@ margin-top: 160px;
 }
 
 @media (max-width:600px) {
-  body{
+  main{
     background-color: #034920;
     align-items: center;
   }
 }
 
 @media (min-width:600px) {
-  body{
-    background-color: #1d4903;
+  main{
     align-items: center;
+    background-color: #f02d34;
   }
 }
