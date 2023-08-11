@@ -2,41 +2,36 @@ html,
 body, * {
   padding: 0;
   margin: 0;
-z-index: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
- 
-
-  
 
 }
-
-
 ::-webkit-scrollbar {
   width: 0px;
 }
-
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
+.main-container{
+max-width: 1400px; 
+margin: auto;
+width: 100%;
 
+}
 .layout{
-  padding: 5px;
- overflow: hidden;
+  padding: 10px;
 }
 
 .navbar-container{
   display: flex;
   justify-content: space-between;
   margin: 6px 18px;
- position: relative;
+  position: relative;
 }
-
-
 .marquee-text{
   font-size: 29px;
   font-weight: 600;
@@ -74,10 +69,9 @@ a {
   font-size: 18px;
 
 }
-
 .cart-icon{
-  font-size: 40px;
-  color: #034920;
+  font-size: 25px;
+  color: gray;
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
@@ -104,8 +98,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
-  margin-top: 25px;
+  gap: 15px;
+  margin-top: 20px;
   width: 100%;
 }
 .product-card{
@@ -136,7 +130,7 @@ a {
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #047e23;
+  background-color: #70e610;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -145,12 +139,12 @@ a {
 
 }
 .hero-banner-container .beats-solo{
-  font-size: 40px;
+  font-size: 10px;
 }
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
-  background-color: #44f02d;
+  background-color: #f02d34;
   color: white;
   border: none;
   margin-top: 40px;
@@ -162,16 +156,13 @@ a {
 
 .hero-banner-container h3{
   font-size: 4rem;
-  margin-top: 25px;
-  margin-left: -18px;
-
+  margin-top: 4px;
 }
 .hero-banner-container h1{
   color: white;
-  font-size: 6em;
-  margin-left: -25px;
+  font-size: 5em;
+  margin-left: -20px;
   text-transform: uppercase;
-  margin-top: -60px;
 }
 .hero-banner-image{
   position: absolute;
@@ -220,8 +211,8 @@ text-align: end;
   font-weight: 200;
 }
 .footer-banner-container{
-  padding: 100px 40px;
-  background-color: #0b860b;
+  padding: 80px 10px;
+  background-color: #f02d34;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -248,8 +239,7 @@ text-align: end;
 .banner-desc .left h3{
   font-weight: 900;
   font-size: 80px;
-  margin-left: 14px;
- 
+  margin-left: 25px;
 }
 .banner-desc .left p{
   margin:18px;
@@ -258,22 +248,18 @@ text-align: end;
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -15%;
-  left: 35%;
-  font-size: 20px;
-
+  top: -25%;
+  left: 25%;
 }
 .banner-desc .right{
   line-height: 1.4;
 }
 .banner-desc .right h3{
   font-weight: 800;
-  font-size: 40px;
-  
+  font-size: 60px;
 }
 .banner-desc .right p{
-  font-size: 20px;
-  
+  font-size: 18px;
 }
 .banner-desc .right .company-desc{
   font-size: 14px;
@@ -384,12 +370,9 @@ padding: 20px 10px;
 .total{
   display: flex;
   justify-content: space-between;
-  
 }
 .total h3{
-  font-size: 30px;
-  font-family: monospace;
-
+  font-size: 22px;
 
 }
 .remove-item{
@@ -634,143 +617,10 @@ margin-top: 160px;
 .product-max-qty{
   margin-top: 10px;
 }
-/*------------------------------------------------------------------------------------------*/
 
-
-/* estilos*/
-
-.bannerStore {
-  background-color: #f8a600;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-}
-
-.banner h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.banner p {
-  font-size: 18px;
-}
-
-/**dsa*/
-
-.bannerStyle {
-  background-color: #cf3328;
-  padding: 40px 0;
-  display: flex;
-
-  gap:16px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
-
-.bannerContent1 {
-  display: flex;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(
-      150px,
-      1fr
-    )
-  );
-  gap:16px;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.textContainer1 {
-  flex: 1;
-  padding-right: 40px;
-}
-
-.bannerImage1 {
-  max-width: 95%;
-  max-height: 250px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.button1 {
-  background-color: #fff;
-  color: #e40c0c;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.button:hover {
-  background-color: #f8a600;
-  color: #fff;
-}
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.bannerContent {
-  animation: slideIn 1s ease-in-out;
-}
-
-/*imagen slideerr*/
-
-.slider1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  position: relative;
-}
-
-.slideImage {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.prevButton,
-.nextButton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.prevButton {
-  left: 20px;
-}
-
-.nextButton {
-  right: 20px;
-}
-
-
-
-@media screen and (max-width:800px)  {
+@media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
-  }
-  
-  .main-container{
-    max-width: 800px; 
   }
   .hero-banner-image{
     width: 77%;
@@ -911,4 +761,3 @@ margin-top: 160px;
   margin: auto;
 }
 }
-

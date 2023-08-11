@@ -16,7 +16,7 @@ const images = [
 
 const Home = ({ products, bannerData }) => (
   <div>
-  <BannerStore />
+ 
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
     {/*<ImagenSlider images={images} />*/}
    
