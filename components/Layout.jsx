@@ -9,6 +9,8 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>SiempreVerdeGrowShop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </meta>
       </Head>
       <header>
         <Navbar />

@@ -17,16 +17,13 @@ const images = [
 const Home = ({ products, bannerData }) => (
   <div>
   <BannerStore />
-
     <HeroBanner heroBanner={bannerData.length && bannerData[0]}  />
-    <ImagenSlider images={images} />
-   <BannerStyle />
-
+    {/*<ImagenSlider images={images} />*/}
+   
     <div className="products-heading">
       <h2>Todo para el Cultivo Indor</h2>
       <p>Accesorios, Semillas, Macetas,Herramientas y mas </p>
     </div>
-  
     <div className="products-container">
       {products?.map((product) => <Product key={product._id} product={product} />)}
     </div>
